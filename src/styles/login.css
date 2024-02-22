@@ -1,0 +1,89 @@
+.container-login {
+    width: 100vw;
+    max-width: 100vw;
+
+    height: 100vh;
+    max-height: 100vh;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/mobil/login-bg-mobil.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+
+    flex-direction: column;
+}
+
+@media screen and (max-width:480px) {
+    .container-login a {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .container-login img {
+        width: 40%;
+        height: auto;
+    }
+
+    .container-login form {
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-login form input {
+        width: 90%;
+        height: 8%;
+        margin-bottom: 40px;
+        background-color: var(--bg-dark);
+        outline: none;
+        border: rgba(255, 255, 255, .5) 1px solid;
+        color: white;
+        padding: 5px;
+    }
+
+    .container-login form input::placeholder {
+        color: rgba(255, 255, 255, .5);
+
+    }
+
+    .container-login form input:active,
+    .container-login form input:focus,
+    .container-login form input:-internal-autofill-selected {
+        background-color: var(--bg-dark) !important;
+    }
+
+    .container-login form button {
+        width: 94%;
+        height: 10%;
+        font-family: var(--font);
+        text-transform: uppercase;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        background-color: whitesmoke;
+        border: 1px solid black;
+    }
+
+    .container-login form button:hover {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .container-login a.dont-have-an-account {
+        color: white;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+}

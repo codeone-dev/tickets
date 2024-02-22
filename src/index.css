@@ -1,0 +1,9 @@
+:root {
+    --bg-dark: #252934;
+    --font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    font-family: var(--font);
+}
