@@ -1,9 +1,14 @@
 :root {
     --bg-dark: #252934;
     --font: 'Roboto', sans-serif;
+    --color-font-secondary: #7f88a0;
+    --info-color: #f1b53d;
+    --check-color: #1bb99a;
+    --white: #e4e6eb;
 }
 
 body {
     background-color: var(--bg-dark);
     font-family: var(--font);
+
 }
