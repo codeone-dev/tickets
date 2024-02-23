@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "pending",
+        "totalWorkHours": 0
+    },
+    {
+        "id": 1,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "pending",
+        "totalWorkHours": 0
+    },
+    {
+        "id": 2,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "completed",
+        "totalWorkHours": 1.5
+    },
+    {
+        "id": 3,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "pending",
+        "totalWorkHours": 0
+    },
+    {
+        "id": 4,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "completed",
+        "totalWorkHours": 1
+    },
+    {
+        "id": 5,
+        "mail": "contacto@semmark.cl",
+        "title": "Mi pagina esta caida",
+        "content": "Hola mi pagina esta caida ayuda por favor waja xD lol",
+        "created_at": "2023-12-06 01:43:03",
+        "state": "pending",
+        "totalWorkHours": 0
+    }
+]
