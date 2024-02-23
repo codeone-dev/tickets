@@ -1,9 +1,8 @@
 import "../styles/login.css";
-
 // Images
 import codeOneLogo from "../images/codeone-logo-sin-fondo.webp";
 
-import React, { FormEvent, useState } from "react";
+import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {

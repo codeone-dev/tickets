@@ -1,9 +1,9 @@
 import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./pages/Login.js";
 
 // components
-import Login from "./components/Login.jsx";
 
 function App() {
   return (
